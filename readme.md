@@ -22,7 +22,7 @@ LDParser
 
 	Arguments:
 
-            -p C:\\single\\file\\nospaces\\path.csv
+            -p "C:\single\file\path.csv"
             -f frequencyInteger
             -c comment
             -e event
@@ -30,7 +30,7 @@ LDParser
             -d driver
             -i vehicleID
             -v venue
-            --folder C:\\single\\folder\\nospaces # target folder where to save LD files
+            --folder "C:\single\folder" # target folder where to save LD files
             --help  # help
 
 Possible problems:
