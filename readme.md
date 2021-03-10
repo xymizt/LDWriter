@@ -10,9 +10,13 @@ pandas
 
 CSV format:
 
+
 Time, 	Channel1, 	Channel2
+
 s, 	unit1, 		unit2
+
 0.5, 	1, 		1,
+
 
 Folders:
 
