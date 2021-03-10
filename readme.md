@@ -40,9 +40,12 @@ Possible problems:
 
 LD file structure:
 
-the file is a binary file that ses numbers as pointers to various data
+the file is a binary file that uses numbers as pointers to various data
 
 HEAD 1890 bytes various general information
+
 EVENT 1154 bytes specific information about the logged data (I don't use it but bytes must be allocated in order for the ld file to be loaded correctly)
+
 META_DATA 124*n_channels bytes information of all the various channels with pointers to data and units
+
 DATA
